@@ -291,6 +291,19 @@ footer {
   padding-right: 10px;
 }
 
+.middleschool {
+  background: url('../img/middleschoolsm.jpg') center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 230px;
+  border-bottom: 5px solid yellow;
+  border-top: 5px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+
 .highschool {
   background: url('../img/hssmall.jpg') center center no-repeat;
   background-size: cover;
@@ -417,6 +430,13 @@ footer {
       height: 231px;
     }
 
+    .middleschool {
+      background: url('../img/middleschoolmed.jpg') center center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 231px;
+    }
+
 	 .highschool {
       background: url('../img/hsmed.jpg') center center no-repeat;
       background-size: cover;
@@ -498,6 +518,7 @@ footer {
 /*     double or triple divs on wider screens  */
     .twopkg {
       width: 50%;
+      text-align: center;
     }
 
     .tripkg {
@@ -591,6 +612,13 @@ footer {
       background-size: cover;
       width: 100%;
       height: 384px;
+    }
+
+    .middleschool {
+      background: url('../img/middleschool.jpg') center center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 231px;
     }
 
 	 .highschool {
