@@ -213,6 +213,10 @@ footer {
   flex-flow: column;
 }
 
+.tripkg {
+  text-align: center;
+}
+
 .home {
   background: url('../img/herosm.jpeg') left center no-repeat;
   background-size: cover;
@@ -289,6 +293,7 @@ footer {
   justify-content: center;
   align-items: flex-end;
   padding-right: 10px;
+  text-align: center;
 }
 
 .middleschool {
@@ -688,6 +693,7 @@ footer {
       align-items: center;
       flex-flow: row wrap;
       }
+
 
     .middlemusic-special {
       width: 100%;
