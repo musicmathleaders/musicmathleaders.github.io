@@ -1,0 +1,772 @@
+/* Custom Css for Mr and Mrs Deike Forest Area class resources pages. */
+
+html {
+  font-size: 16px;
+  line-height: 1.4;
+  max-width: 1680px;
+  height: auto;
+}
+
+body {
+  width: 100%;
+  font-size: 1em;
+  background-color: green;
+}
+
+img {
+  max-width: 95%;
+}
+
+/* button styles */
+
+
+.button1 {
+    background: #F5F5F5;
+    border: 2px solid green;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 35px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.button1:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ul {
+  list-style-type: none;
+  padding-right: 50px;
+}
+
+/* fonts section. */
+
+a, h1, h2, h3, h5 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+p {
+    color: lightgrey;
+    font-size: 1em;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+a {
+  color: darkgrey;
+  font-size: .6em;
+}
+
+h1 {
+    font-size: 1em;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: .20em .20em 4px black;
+    text-align: right;
+}
+
+h2 {
+  font-size: 0.85em;
+  color: yellow;
+  text-align: center;
+}
+
+h3 {
+    font-size: 1.1em;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: .20em .20em 4px black;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid yellow;
+}
+
+h4 {
+  font-size: 1.3em;
+  color: yellow;
+  text-align: center;
+}
+
+h5 {
+  font-size: 0.8em;
+  color: darkblue;
+}
+
+#text {
+  padding-left: 65px;
+}
+
+#textleft {
+  text-align: left;
+}
+
+.txtmove {
+  padding-left: 20px;
+}
+
+/*     To Create a transparent green background behind element intended for the text     */
+#hstitle {
+  background-color: rgba(0, 128, 0, .5);
+  border-radius: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#together {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#samerow {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* ######## Section sizes ######## */
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  width: 90%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-flow: column;
+  border-top: 1px solid yellow;
+}
+
+.middlemusic {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+
+.middleresource {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-flow: row wrap;
+  border-top: 1px solid yellow;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+}
+
+footer {
+  border-top: 1px solid lightyellow;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#package {
+  flex: 1;  /* this property keeps the footer at the bottom */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.home {
+  background: url('../img/herosm.jpeg') left center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100px;
+  border-bottom: 5px solid yellow;
+  border-top: 5px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 4px;
+}
+
+.math {
+  background: url('../img/mathsm.jpg') right center no-repeat;
+  background-size: cover;
+  width: 90%;
+  height: 230px;
+  border-bottom: 5px solid yellow;
+  border-top: 5px solid yellow;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+
+.leadership {
+  background: url('../img/leadershipsm.jpeg') center center no-repeat;
+  background-size: cover;
+  width: 90%;
+  height: 230px;
+  border-bottom: 5px solid yellow;
+  border-top: 5px solid yellow;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 10px;
+  padding-right: 4px;
+}
+
+.music {
+  background: url('../img/musicsm.jpg') center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  border-bottom: 5px solid yellow;
+  border-top: 5px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.fourthfifth {
+  background: url('../img/fourthfifthsm.jpg') center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 230px;
+  border-bottom: 5px solid yellow;
+  border-top: 5px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+
+.sixth {
+  background: url('../img/sixthgradesm.jpg') center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 230px;
+  border-bottom: 5px solid yellow;
+  border-top: 5px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+
+.highschool {
+  background: url('../img/hssmall.jpg') center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 205px;
+  border-bottom: 5px solid yellow;
+  border-top: 5px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 10px;
+}
+
+.choir {
+  background: url('../img/choirsm.jpg') center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 205px;
+  border-bottom: 5px solid yellow;
+  border-top: 5px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 10px;
+}
+
+.resources {
+  background: url('../img/resourcessm.jpg') center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 230px;
+  border-bottom: 5px solid yellow;
+  border-top: 5px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 10px;
+}
+
+.jazz {
+  background: url('../img/jazzsm.jpg') center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 230px;
+  border-bottom: 5px solid yellow;
+  border-top: 5px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+
+.about {
+  background: url('../img/deikesm.jpg') center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 230px;
+  border-bottom: 5px solid yellow;
+  border-top: 5px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+
+/*    hide some images for mobile devices     */
+#side, #sidemath, #sideleadership, #sidemusic, #fourfive, #aboutside, #hsside, #choirside {
+  display: none; /* hides the body side left sidebar image on mobile  */
+}
+
+
+/*  Media Sizing  */
+
+@media screen and (min-width: 768px) {        /*  TABLET Size */
+
+    h1 {
+      font-size: 2.0em;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.3em;
+    }
+
+    h3 {
+      border: none;
+    }
+
+/*  tablet sized header images   */
+    .home {
+      background: url('../img/hero.jpeg') left center no-repeat;
+      width: 100%;
+      height: 384px;
+    }
+
+    .math {
+      background: url('../img/mathreg.jpg') center center no-repeat;
+      width: 100%;
+      height: 350px;
+    }
+
+    .leadership {
+      background: url('../img/leadershipmed.jpeg') center top no-repeat;
+      width: 100%;
+      height: 375px;
+    }
+
+    .music {
+      background: url('../img/musicmed.jpg') center top no-repeat;
+      width: 100%;
+      height: 350px;
+    }
+
+    .fourthfifth {
+      background: url('../img/fourthfifthmed.jpg') center top no-repeat;
+      width: 100%;
+      height: 324px;
+    }
+
+    .sixth {
+      background: url('../img/sixthgrademed.jpg') center center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 231px;
+    }
+
+	 .highschool {
+      background: url('../img/hsmed.jpg') center center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 274px;
+    }
+
+    .choir {
+      background: url('../img/choirmed.jpg') center center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 274px;
+    }
+
+    .resources {
+      background: url('../img/resourcesmed.jpg') center center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 324px;
+    }
+
+    .jazz {
+      background: url('../img/jazzmed.jpg') center center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 324px;
+    }
+
+    .about {
+      background: url('../img/deikemed.jpg') center center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 324px;
+    }
+
+/*  show side images for tablet size and larger   */
+    #side {
+      display: inline;
+      padding-top: 20px;
+      width: 30%;
+    }
+
+    #sidemath {
+      display: inline;
+      padding-top: 50px;
+      width: 20%;
+    }
+
+    #sideleadership {
+      display: none;
+      padding-top: 50px;
+      width: 35%;
+    }
+
+    #sidemusic {
+      display: none;
+      padding-top: 20px;
+      width: 30%;
+    }
+
+    #fourfive {
+      display: inline;
+      padding-top: 20px;
+      width: 30%;
+    }
+
+	 #hsside {
+		display: inline;
+		padding-top: 20px;
+		width: 30%;
+	}
+
+   #choirside {
+     display: inline;
+     padding-top: 20px;
+     width: 30%;
+   }
+
+/*     double or triple divs on wider screens  */
+    .twopkg {
+      width: 50%;
+    }
+
+    .tripkg {
+      width: 45%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .tripkg2 {
+      width: 31%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .middle {
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-flow: row nowrap;
+    }
+
+    .middlemusic {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: row wrap;
+      }
+
+}
+
+@media screen and (min-width: 1200px) {      /*  PC SIZE  */
+
+    h1 {
+      font-size: 3.2em;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2.5em;
+    }
+
+    h3 {
+      border: none;
+    }
+
+    p {
+      font-size: 1.8em;
+    }
+
+
+/*  Header images follow for pc sizes */
+    .home {
+      background: url('../img/hero.jpeg') center center no-repeat;
+      width: 100%;
+      height: 384px;
+    }
+
+    .math {
+      background: url('../img/mathlarge.jpg') center center no-repeat;
+      width: 100%;
+      height: 620px;
+    }
+
+    .leadership {
+      background: url('../img/leadershiplg.jpeg') center center no-repeat;
+      width: 100%;
+      height: 676px;
+    }
+
+    .music {
+      background: url('../img/musiclg.jpg') center top no-repeat;
+      width: 100%;
+      height: 600px;
+    }
+
+    .fourthfifth {
+      background: url('../img/fourthfifth.jpg') center center no-repeat;
+      width: 100%;
+      height: 384px;
+    }
+
+    .sixth {
+      background: url('../img/sixthgrade.jpg') center center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 384px;
+    }
+
+	 .highschool {
+      background: url('../img/hslarge.jpg') center center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 320px;
+    }
+
+    .choir {
+      background: url('../img/choirlg.jpg') center center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 300px;
+    }
+
+    .resources {
+      background: url('../img/resourceslg.jpg') center center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 384px;
+    }
+
+    .jazz {
+      background: url('../img/jazzlg.jpg') center center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 384px;
+    }
+
+    .about {
+      background: url('../img/deikelg.jpg') center center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 384px;
+    }
+
+/*  div widths   */
+    .tripkg {
+        width: 33%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .twopkg {
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .middle {
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-flow: row nowrap;
+      }
+
+    .middlemusic {
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-flow: row wrap;
+      }
+
+    .middlemusic-special {
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-flow: row wrap;
+      border-top: 1px solid yellow;
+      margin-top: 40px;
+      }
+
+  }
+
+/*  Side images on pages  */
+    #side {
+      display: inline-flex;
+      width: 50%;
+      height: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #sideleadership {
+      display: inline;
+      padding-top: 50px;
+      width: 30%;
+    }
+
+    #sidemusic {
+      display: inline;
+      padding-top: 20px;
+      width: 30%;
+    }
+
+    #fourfive {
+      display: inline;
+      padding-top: 20px;
+      width: 30%;
+     }
+
+	 #hsside {
+		display: inline;
+		padding-top: 20px;
+		width: 30%;
+	  }
+
+   ul {
+     padding-right: 8px;
+   }
+
+
+
+/* email form  */
+
+form {
+  /* Just to center the form on the page */
+  margin: .5em .5em .5em .5em;
+  width: auto;
+  padding: .5em .5em .5em .5em;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline-block;
+  width: 5.812em;
+  text-align: right;
+}
+
+input, textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  font: 1.25em sans-serif;
+
+  /* To give the same size to all text field */
+  width: 17em;
+
+  :-moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highligh on active elements */
+  border-color: blue;
+}
+
+textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 10em;
+
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+
+/*     ##########   End Email Form  ##############  */
